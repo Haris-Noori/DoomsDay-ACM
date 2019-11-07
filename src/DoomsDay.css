@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-image: url("1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    color: black;
+    list-style: none;
+    margin-right: 40px; 
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+ul li:hover{
+    color: blanchedalmond;
+
+}
+
+nav  li{
+    display: inline;
+    margin-right: 30px;
+    margin-top: 30px; 
+    
+}
+
+
+
+button{
+    background-size: 50px;
+    background-color: orange;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-left: 50px;
+    background-color: orangered;
+    padding: 1rem 2rem;
+    margin: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 550px;
+
+}
+
+nav img {
+
+    margin-left: 20px;
+    width: cover;
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: brown;
+    height: 80px;
+    
+}
+
+button:hover {
+    border: 10px;
+    border-color: white;
+    background-color: red;
+
+
+}
+
+h1 , p {
+    background-color:black ;
+    text-align: center;
+    color: white;
+}
+
+
+
+.main{
+    background: #0009;
+    display: center;
+    padding-left: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#input1{
+    size: 60px;
+    margin: 30px 30px 30px 30px;
+
+}
+
+#input1 input{
+    border: solid black;
+    width: 400px;
+    height: 30px;
+}
+
+#input2{
+    padding-left:50px;
+    color: blanchedalmond;
+}
+
+
+#input3{
+    padding-left:50px;
+    color: blanchedalmond;
+    margin-top: 30px;
+    margin-right: 200px;
+    
+}
+
+div ul li{
+    margin-right:30px;
+    display: inline;
+    color: brown;
+}
+
+div h2{
+    margin-top: 40px;
+    color: white;
+
+}
