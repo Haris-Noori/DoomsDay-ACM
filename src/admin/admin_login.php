@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Amdin Login</title>
+
+
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/admin_login.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <nav class="navbar mynav">
+        <div class="mydiv">
+            <span><img src="../../img/acm.png" width="80" height="80" class="d-inline-block align-top"
+                    href=""></span>
+            <a id="techvalley" href="../index.html">
+                DOOMSDAY 2019
+            </a>
+            <ul>
+                <li>Home</li>
+                <li>Team</li>
+                <li>Participate</li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--PAGE CONTENT STARTS-->
+    <div class="container mcontainer">
+        <!--FORM STARTS-->
+        <center>
+            <h2>Admin Login</h2>
+            <!-- form -->
+            <form action="admin_login_try.php" method="post">
+
+                <div class="form group-row">
+                    <span><img src="../../img/perm_id.png"></span>
+                    <input placeholder="Admin Username" type="text" name="username" class="form-control col-sm-4" required>
+                </div>
+                <br>
+                <div class="form group-row">
+                    <span><img src="../../img/lock_open.png"></span>
+                    <input placeholder="Admin Password" type="password" name="password" class="form-control col-sm-4" required>
+                </div>
+                <br>
+                <div class="form group-row">
+                    <button type="submit" class="form-control col-sm-4 btn-warning">Login</button>
+                </div>
+                <br>
+                <div class="form group-row">
+                    <?php
+                    if(isset($_GET["Message"]))
+                    {
+                        echo "<div class='col-sm-4 alert alert-danger'>";
+                        echo $_GET["Message"];
+                        echo "</div>";
+                    }
+                ?>
+                </div>
+
+            </form>
+        </center>
+
+    </div>
+    <!--PAGE CONTENT ENDS HERE-->
+
+    <footer class="foot" style="background: #020002">
+        <div class="row align-center copyright">
+            <div class="col-sm-12" align="center" style="color:whitesmoke">
+                <br>
+                <h3>&copy;DOOMSDAY 2019 - All Rights Reserved</h3>
+                <!-- <p><img src="../images/footer.png" id ="img_footer"></span></p> -->
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+</body>
+
+</html>
