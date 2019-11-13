@@ -6,7 +6,7 @@
     $in_name = $_POST["input_name"];
     $in_pass = $_POST["input_pass"];
 
-    $qry = "SELECT * FROM admins WHERE admin_name = '".$in_name."' ";
+    $qry = "SELECT * FROM operators WHERE operator_name = '".$in_name."' ";
 
     // ----------------------- check if query working
     if($con->query($qry))
@@ -26,22 +26,22 @@
     {   //admin exists
         $row = $res->fetch_assoc();
 
-        if($row["admin_pass"] == $in_pass)
+        if($row["operator_pass"] == $in_pass)
         {   //password is correct
-            $_SESSION["admin"] = $in_name;
+            $_SESSION["operator"] = $in_name;
             //echo $SESSION["user"];
-            header("Location:admin_dashboard.php");    //give admin the access to dashboard
+            header("Location:operator_dashboard.php");    //give admin the access to dashboard
         }
         else
         {   //password is incorrect
             $msg = "Invalid Password";
-            header("Location:admin_login.php?Message=$msg");
+            header("Location:operator_login.php?Message=$msg");
         }
     }
     else
     {   //admin does not exist
         $msg = " ".$in_name." does not exist";
-        header("Location:admin_login.php?Message=$msg");
+        header("Location:operator_login.php?Message=$msg");
     }
     
 ?>

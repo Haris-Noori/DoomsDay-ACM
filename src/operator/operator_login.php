@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Admin | Login</title>
+    <title>Operator | Login</title>
 
 
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
@@ -36,18 +36,18 @@
     <div class="container mcontainer">
         <!--FORM STARTS-->
         <center>
-            <h2>Admin Login</h2>
+            <h2>Operator Login</h2>
             <!-- form -->
-            <form action="admin_login_try.php" method="post">
+            <form action="operator_login_try.php" method="post">
 
                 <div class="form group-row">
                     <span><img src="../../img/perm_id.png"></span>
-                    <input placeholder="Admin Name" type="text" name="input_name" class="form-control col-sm-4" required>
+                    <input placeholder="Operator Name" type="text" name="input_name" class="form-control col-sm-4" required>
                 </div>
                 <br>
                 <div class="form group-row">
                     <span><img src="../../img/lock_open.png"></span>
-                    <input placeholder="Admin Password" type="password" name="input_pass" class="form-control col-sm-4" required>
+                    <input placeholder="Operator Password" type="password" name="input_pass" class="form-control col-sm-4" required>
                 </div>
                 <br>
                 <div class="form group-row">

@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION["operator"]))
+    { //if login in session is not set
+        header("Location:../../index.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,13 +70,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Operator Name
+                                <?php echo $_SESSION["operator"]; ?>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Logout</a>
+                                <a class="dropdown-item" href="logout.php">Logout</a>
                             </div>
                         </li>
                     </ul>

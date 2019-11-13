@@ -56,7 +56,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Operator Login</h5>
                         <p class="card-text">Operational team can login from here</p>
-                        <a href="src/operator/operator-dashboard.html" class="btn btn-dark">Login</a>
+                        <a href="src/operator/operator_login.php" class="btn btn-dark">Login</a>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 13, 2019 at 08:40 PM
+-- Generation Time: Nov 13, 2019 at 09:27 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -43,6 +43,24 @@ INSERT INTO `admins` (`admin_name`, `admin_pass`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `operators`
+--
+
+CREATE TABLE `operators` (
+  `operator_name` varchar(30) NOT NULL,
+  `operator_pass` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `operators`
+--
+
+INSERT INTO `operators` (`operator_name`, `operator_pass`) VALUES
+('root', 'root');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `participants`
 --
 
@@ -62,6 +80,12 @@ CREATE TABLE `participants` (
 --
 ALTER TABLE `admins`
   ADD UNIQUE KEY `admin_name` (`admin_name`);
+
+--
+-- Indexes for table `operators`
+--
+ALTER TABLE `operators`
+  ADD UNIQUE KEY `operator_name` (`operator_name`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

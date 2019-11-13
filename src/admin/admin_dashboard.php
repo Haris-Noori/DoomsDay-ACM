@@ -1,5 +1,9 @@
 <?php
     session_start();
+    if(!isset($_SESSION["admin"]))
+    { //if login in session is not set
+        header("Location:../../index.php");
+    }
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +41,7 @@
                 <a href="#" class="list-group-item list-group-item-action bg-light">Remove Operator</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Registered Participants</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Revenue</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Feedback</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">All Team</a>
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -62,13 +66,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <?php echo $_SESISON["user"]; ?>
+                                <?php echo $_SESSION["admin"]; ?>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Logout</a>
+                                <a class="dropdown-item" href="logout.php">Logout</a>
                             </div>
                         </li>
                     </ul>
