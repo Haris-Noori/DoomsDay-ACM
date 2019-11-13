@@ -29,7 +29,7 @@
             <ul>
                 <li>Home</li>
                 <li>Team</li>
-                <li href="tests/index.php">Participate</li>
+                <li> <a href="src/participant/participate_form.php">Participate</a> </li>
             </ul>
         </div>
 
@@ -45,7 +45,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Admin Login</h5>
                         <p class="card-text">This is for super admins only</p>
-                        <a href="src/admin/admin-dashboard.html" class="btn btn-dark">Login</a>
+                        <a href="src/admin/admin_login.php" class="btn btn-dark">Login</a>
                     </div>
                 </div>
             </div>

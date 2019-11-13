@@ -21,7 +21,7 @@
         <div class="mydiv">
             <span><img src="../../img/acm.png" width="80" height="80" class="d-inline-block align-top"
                     href=""></span>
-            <a id="techvalley" href="../index.html">
+            <a id="techvalley" href="../../index.php">
                 DOOMSDAY 2019
             </a>
             <ul>
@@ -42,12 +42,12 @@
 
                 <div class="form group-row">
                     <span><img src="../../img/perm_id.png"></span>
-                    <input placeholder="Admin Username" type="text" name="username" class="form-control col-sm-4" required>
+                    <input placeholder="Admin Username" type="text" name="input_name" class="form-control col-sm-4" required>
                 </div>
                 <br>
                 <div class="form group-row">
                     <span><img src="../../img/lock_open.png"></span>
-                    <input placeholder="Admin Password" type="password" name="password" class="form-control col-sm-4" required>
+                    <input placeholder="Admin Password" type="password" name="input_pass" class="form-control col-sm-4" required>
                 </div>
                 <br>
                 <div class="form group-row">
