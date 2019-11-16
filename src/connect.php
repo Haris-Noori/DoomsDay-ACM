@@ -14,6 +14,6 @@
     }
     else
     {
-        echo "<script> alert('Successfully connected to database')</script>";
+        // echo "<script> alert('Successfully connected to database')</script>";
     }
 ?>
