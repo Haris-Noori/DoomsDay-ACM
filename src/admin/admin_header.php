@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    if(!isset($_SESSION["admin"]))
+    { //if login in session is not set
+        header("Location:../../index.php");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,10 +13,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
 
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/admin-header.css">
+    <link rel="stylesheet" href="../../css/admin-dashboard.css">
     <link href="../../css/simple-sidebar.css" rel="stylesheet">
 
     <!--FONT LINK-->
@@ -17,8 +24,6 @@
 </head>
 
 <body>
-
-
     <!-- Image and text -->
     <div class="d-flex" id="wrapper">
 
@@ -35,7 +40,7 @@
                 <a href="#" class="list-group-item list-group-item-action bg-light">Remove Operator</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Registered Participants</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Revenue</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Feedback</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">All Team</a>
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -44,7 +49,7 @@
         <div id="page-content-wrapper">
 
             <nav class="navbar navbar-expand-lg navbar-light border-bottom mynavbar">
-                <button class="btn btn-success mybtn" id="menu-toggle">Dashboard</button>
+                <button class="btn btn-success mybtn" id="menu-toggle">Admin Panel</button>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -60,49 +65,15 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Admin name
+                                <?php echo $_SESSION["admin"]; ?>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Logout</a>
+                                <a class="dropdown-item" href="admin_logout.php">Logout</a>
                             </div>
                         </li>
                     </ul>
                 </div>
             </nav>
-
-        </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-
-
-
-
-
-    <footer class="foot" style="background: #020002">
-        <div class="row align-center copyright">
-            <div class="col-sm-12" align="center" style="color:whitesmoke">
-                <br>
-                <h3>&copy;DOOMSDAY 2019 - All Rights Reserved</h3>
-                <!-- <p><img src="../images/footer.png" id ="img_footer"></span></p> -->
-            </div>
-        </div>
-    </footer>
-
-    <script src="../../js/jquery-3.4.1.min.js"></script>
-    <script src="../../js/popper.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-        $("#menu-toggle").click(function (e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
-    </script>
-</body>
-
-</html>

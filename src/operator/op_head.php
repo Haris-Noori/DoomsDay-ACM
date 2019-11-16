@@ -32,11 +32,11 @@
                 </a> </div>
             <div class="list-group list-group-flush">
                 <a href="#" class="list-group-item list-group-item-action bg-light">My Profile</a>
-                <a href="search-participant.php" class="list-group-item list-group-item-action bg-light">Search
+                <a href="search_participant.php" class="list-group-item list-group-item-action bg-light">Search
                     Participant</a>
-                <a href="register-participant.php" class="list-group-item list-group-item-action bg-light">Register New
+                <a href="register_participant.php" class="list-group-item list-group-item-action bg-light">Register New
                     Participant</a>
-                <a href="all-participants.php" class="list-group-item list-group-item-action bg-light">All Participants</a>
+                <a href="all_participants.php" class="list-group-item list-group-item-action bg-light">All Participants</a>
                 <a href="operator_team.php" class="list-group-item list-group-item-action bg-light">Team</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Feedback/Suggestions</a>
             </div>
@@ -69,7 +69,7 @@
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Logout</a>
+                                <a class="dropdown-item" href="operator_logout.php">Logout</a>
                             </div>
                         </li>
                     </ul>

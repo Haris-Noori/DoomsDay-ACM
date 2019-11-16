@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Operator Team</title>
+    <title>Team | Operator</title>
     <link rel="stylesheet" href="../../css/operator_team.css">
 </head>
 
