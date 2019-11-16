@@ -13,18 +13,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Operator Dashboard</title>
+    <title></title>
 
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/operator_dashboard.css">
+    <link rel="stylesheet" href="../../css/operator_header.css">
     <link rel="stylesheet" href="../../css/simple-sidebar.css" rel="stylesheet">
 
     <!--FONT LINK-->
     <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
+
+
     <!-- Image and text -->
     <div class="d-flex" id="wrapper">
 
@@ -42,12 +43,13 @@
                 <a href="register-participant.php" class="list-group-item list-group-item-action bg-light">Register New
                     Participant</a>
                 <a href="all-participants.php" class="list-group-item list-group-item-action bg-light">All Participants</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Team</a>
+                <a href="operator_team.php" class="list-group-item list-group-item-action bg-light">Team</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Feedback/Suggestions</a>
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
 
+        <!-- Page Content -->
         <div id="page-content-wrapper">
 
             <nav class="navbar navbar-expand-lg navbar-light border-bottom mynavbar">
@@ -67,35 +69,30 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <?php echo $_SESSION["operator"]; ?>
+                                Operator Name
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout.php">Logout</a>
+                                <a class="dropdown-item" href="#">Logout</a>
                             </div>
                         </li>
                     </ul>
                 </div>
             </nav>
 
-            <!-- Page Content -->
             <div class="container-fluid">
-                <h1 class="mt-4">Operator Dashboard</h1>
+                <h1 class="mt-4">Student Dashboard</h1>
 
                 <div class="jumbotron">
-                    <div class="container-fluid">
-                        <h1 class="mt-4">Operator Dashboard</h1>
-                        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear
-                            non-collapsed on larger screens. When toggled using the button below, the menu will change.
-                        </p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top
-                            navbar is
-                            optional, and just for demonstration. Just create an element with the
-                            <code>#menu-toggle</code> ID
-                            which will toggle the menu when clicked.</p>
-                    </div>
+                    <h1 class="display-4">Welcome, Student</h1>
+                    <p class="lead">This is a simple hero unit, This is Tech Valley, you can learn here from industry
+                        professionals</p>
+                    <img src="../../img/pic.png" width="80" height="80">
+                    <hr class="my-4">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger
+                        container.</p>
                 </div>
             </div>
         </div>
