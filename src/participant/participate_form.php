@@ -21,19 +21,19 @@
     <h1>We Welcome You That You Made Your Mind!</h1>
     <p>Kindly Fill The Form To Proceed</p>
 
-    <form action="insert.php" method="POST">
+    <form action="qr-generator/get_data.php" method="POST">
 
 
         <div class="main">
             <div id="input1">
-                 <input type="text" name="Name" placeholder="Name" required>
+                 <input type="text" name="content" placeholder="Name" required>
             </div>
 
             <div id="input1">
-                 <input type="number" name="CNIC" placeholder="CNIC" required>
+                 <input type="number" name="cnic" placeholder="CNIC" required min="1000000000000" max="9999999999999">
             </div>
 
-            <div id="input1">
+            <!-- <div id="input1">
                 <input type="email" name="e-mail" placeholder="e-mail" required>
             </div>
             <div id="input1">
@@ -55,7 +55,7 @@
                     <li> <input type="checkbox" name="fruit" value="PUBG"> PUBG </li>
                     <li><input type="checkbox" name="fruit" value="NFS"> NFS </li>
                 </ul>
-            </div>
+            </div> -->
 
             <button type="submit">REGISTER</button>
 

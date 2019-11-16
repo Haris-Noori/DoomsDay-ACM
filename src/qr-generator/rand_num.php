@@ -11,7 +11,7 @@
 		//$rand_num = 10;
 		$found = false;
 		//-------------------------------------------------------------------
-		$fileName = "rand_nums.txt";    //Giving file path
+		$fileName = "../../rand_nums.txt";    //Giving file path
 		$fp = fopen($fileName,"a+");
 		if( $fp == false )
 		{

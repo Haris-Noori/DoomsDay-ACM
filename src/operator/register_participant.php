@@ -13,7 +13,7 @@
                 <h1 class="mt-4">Participant Registration Section</h1>
 
 
-                <form class="myform" action="../qr-generator/get_data.php" method="post">
+                <form class="myform" action="qr-generator/get_data.php" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="inputEmail4">Participant Name</label>
@@ -21,7 +21,7 @@
                         </div>
                         <div class="form-group col-md-4">
                             <label for="inputPassword4">CNIC Number</label>
-                            <input type="number" name="cnic" class="form-control" id="inputPassword4" placeholder="13 Digit number">
+                            <input type="number" name="cnic" class="form-control" id="inputPassword4" placeholder="13 Digit number" required min="1000000000000" max="9999999999999">
                         </div>
                         <!-- <div class="form-group col-md-3">
                             <label for="inputPassword4">Upload Image</label>
