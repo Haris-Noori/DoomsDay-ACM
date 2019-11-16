@@ -1,8 +1,9 @@
 <?php
 
-    include "connect.php";
+    include "../connect.php";
+    include "rand_num.php";
 
-    $p_id = rand(1,10000);
+    $p_id = $random_number;
     $p_name = $_POST["content"];
     $cnic = $_POST["cnic"];
     echo "Participant ID: ".$p_id." <br>";
@@ -12,7 +13,7 @@
     // echo "Hello from Hello file<br>";
     // echo $fileName;
 
-    $qry = " INSERT INTO students(p_id, p_name, cnic) VALUES ('".$p_id."', '".$p_name."', '".$cnic."') ";
+    $qry = " INSERT INTO students(p_id, p_name, p_cnic) VALUES ('".$p_id."', '".$p_name."', '".$cnic."') ";
     
     // ----------------------- check if query working
     if($con->query($qry))

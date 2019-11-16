@@ -13,15 +13,15 @@
                 <h1 class="mt-4">Participant Registration Section</h1>
 
 
-                <form class="myform">
+                <form class="myform" action="../qr-generator/get_data.php" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="inputEmail4">Participant Name</label>
-                            <input type="text" class="form-control" id="inputEmail4" placeholder="Full Name">
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Full Name" name="content">
                         </div>
                         <div class="form-group col-md-4">
                             <label for="inputPassword4">CNIC Number</label>
-                            <input type="number" class="form-control" id="inputPassword4" placeholder="13 Digit number">
+                            <input type="number" name="cnic" class="form-control" id="inputPassword4" placeholder="13 Digit number">
                         </div>
                         <!-- <div class="form-group col-md-3">
                             <label for="inputPassword4">Upload Image</label>
@@ -29,11 +29,10 @@
                         </div> -->
                     </div>
 
-                    <div class="form-row">
+                    <!-- <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="inputEmail4">Events</label>
-                            <!-- <input type="email" class="form-control" id="inputEmail4"
-                                placeholder="FIFA-19/PUBG/COD4/CS-GO"> -->
+                            
                             <select class="custom-select">
                                 <option selected>Select Event</option>
                                 <option value="1">FIFA 19</option>
@@ -46,7 +45,7 @@
                             <label for="inputPassword4">Event Fee</label>
                             <input type="text" class="form-control" id="inputPassword4" placeholder="$$">
                         </div>
-                    </div>
+                    </div> -->
 
                     <button type="submit" class="btn btn-success btn-lg">Register</button>
                 </form>
