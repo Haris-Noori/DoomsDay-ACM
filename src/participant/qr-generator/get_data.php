@@ -25,9 +25,9 @@
 
     require_once "generate-qr.php";
 
-    echo "<br>";
+    // echo "<br>";
     echo "<center style='font-size: 18px' >";
-    echo "Participant ID: ".$p_id." <br>";
+    echo "Participant Ticket ID: ".$p_id." <br>";
     echo "Participant name: ".$p_name." <br>";
     echo "Participant CNIC: ".$cnic." <br>";
     echo "</center>"

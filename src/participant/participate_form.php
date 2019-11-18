@@ -33,7 +33,7 @@
                  <input type="number" name="cnic" placeholder="CNIC" required min="1000000000000" max="9999999999999">
             </div>
 
-            <!-- <div id="input1">
+            <div id="input1">
                 <input type="email" name="e-mail" placeholder="e-mail" required>
             </div>
             <div id="input1">
@@ -55,7 +55,7 @@
                     <li> <input type="checkbox" name="fruit" value="PUBG"> PUBG </li>
                     <li><input type="checkbox" name="fruit" value="NFS"> NFS </li>
                 </ul>
-            </div> -->
+            </div>
 
             <button type="submit">REGISTER</button>
 

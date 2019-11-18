@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Registered Participant </title>
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
 </head>
 <body>
     <center>
@@ -45,7 +46,11 @@ if (!file_exists($pngAbsoluteFilePath)) {
 // echo '<hr />';
 
 // displaying
-echo '<img width="80px" src="'.$urlRelativeFilePath.'" /> </center>';
+echo "Click on QR Code to save your ticket ID <br>";
+echo " <a href='".$urlRelativeFilePath."' download> ";
+echo '<img width="80px" src="'.$urlRelativeFilePath.'" /> ';
+echo "</a>";
+echo "</center>";
 // include "hello.php";
 
 ?>
