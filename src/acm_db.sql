@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 13, 2019 at 09:27 PM
+-- Generation Time: Nov 19, 2019 at 10:13 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -38,6 +38,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`admin_name`, `admin_pass`) VALUES
+('haider', 'haider'),
 ('root', 'root');
 
 -- --------------------------------------------------------
@@ -56,6 +57,8 @@ CREATE TABLE `operators` (
 --
 
 INSERT INTO `operators` (`operator_name`, `operator_pass`) VALUES
+('Ahmad tariq ', '123'),
+('haider', 'haider'),
 ('root', 'root');
 
 -- --------------------------------------------------------
@@ -65,11 +68,23 @@ INSERT INTO `operators` (`operator_name`, `operator_pass`) VALUES
 --
 
 CREATE TABLE `participants` (
-  `p_id` int(5) DEFAULT NULL,
-  `p_name` varchar(20) DEFAULT NULL,
-  `p_cnic` int(13) DEFAULT NULL,
-  `p_phone` int(11) DEFAULT NULL
+  `p_id` int(6) NOT NULL,
+  `p_name` varchar(50) NOT NULL,
+  `p_cnic` bigint(30) NOT NULL,
+  `p_phone` int(11) NOT NULL,
+  `event_name` varchar(20) NOT NULL,
+  `fee_paid` int(20) NOT NULL,
+  `registered_by` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `participants`
+--
+
+INSERT INTO `participants` (`p_id`, `p_name`, `p_cnic`, `p_phone`, `event_name`, `fee_paid`, `registered_by`) VALUES
+(964, 'Haris Noori', 6110126041761, 0, '', 0, ''),
+(86, 'jndjand', 1111111111111, 0, '', 0, ''),
+(55, 'ahmad', 1234567890123, 0, '', 0, '');
 
 --
 -- Indexes for dumped tables
