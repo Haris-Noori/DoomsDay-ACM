@@ -57,12 +57,12 @@
                 </div>
             </div>
 
-            <div class="form-row">
+            <!-- <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="inputPassword4">Event Fee</label>
                     <input type="number" name="event_fee" class="form-control" id="inputPassword4" placeholder="$$">
                 </div>
-            </div>
+            </div> -->
 
             <button type="submit" class="btn btn-success btn-lg">Register</button>
         </form>

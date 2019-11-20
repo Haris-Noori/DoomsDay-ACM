@@ -8,7 +8,75 @@
     $cnic = $_POST["cnic"];
     $p_phone = $_POST["phone_no"];
     $event_name = $_POST["event_name"];
-    $fee_paid = $_POST["event_fee"];
+    // $fee_paid = $_POST["event_fee"];
+    if($event_name == "Visitor")
+    {
+        $fee_paid = 200;
+    }
+    elseif($event_name == "PUBG")
+    {
+        $fee_paid = 1200;
+    }
+    elseif($event_name == "Tekken")
+    {
+        $fee_paid = 350;
+    }
+    elseif($event_name == "COD")
+    {
+        $fee_paid = 1500;
+    }
+    elseif($event_name == "NFS")
+    {
+        $fee_paid = 350;
+    }
+    elseif($event_name == "FIFA")
+    {
+        $fee_paid = 350;
+    }
+    elseif($event_name == "DOTA")
+    {
+        $fee_paid = 350;
+    }
+    elseif($event_name == "CS-GO")
+    {
+        $fee_paid = 1500;
+    }
+    elseif($event_name == "Ludo 1 Player")
+    {
+        $fee_paid = 200;
+    }
+    elseif($event_name == "Cards 1 Player")
+    {
+        $fee_paid = 200;
+    }
+    elseif($event_name == "Chess 1 Player")
+    {
+        $fee_paid = 200;
+    }
+    elseif($event_name == "Little Artist 1 Player")
+    {
+        $fee_paid = 200;
+    }
+    elseif($event_name == "Spelling Bee 1 Player")
+    {
+        $fee_paid = 200;
+    }
+    elseif($event_name == "Henna 1 Player")
+    {
+        $fee_paid = 100;
+    }
+    elseif($event_name == "Singing 1 Player")
+    {
+        $fee_paid = 100;
+    }
+    elseif($event_name == "Painting 1 Player")
+    {
+        $fee_paid = 100;
+    }
+    else
+    {$fee_paid = 200; }
+    
+
     $registered_by = $_SESSION["operator"];
 
     // echo $p_id;
