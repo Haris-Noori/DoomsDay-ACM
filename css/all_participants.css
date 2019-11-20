@@ -30,13 +30,13 @@ body
 
 .myform
 {
-    width: 15%;
-    margin-left: auto;
+    width: 100%;
+    margin-left: 15px;
     margin-right: auto;
 }
 
 .btn-mybtn
 {
-    margin: 5px;
+    margin: 2px;
 }
 

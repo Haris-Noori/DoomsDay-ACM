@@ -37,6 +37,7 @@
                     <label for="inputEmail4">Select Event</label>
 
                     <select class="custom-select" name="event_name">
+                        <option value="Visitor">Visitor</option>
                         <option value="PUBG">PUBG</option>
                         <option value="Tekken">Tekken</option>
                         <option value="COD">COD</option>
@@ -66,6 +67,23 @@
             <button type="submit" class="btn btn-success btn-lg">Register</button>
         </form>
 
+        <h3 class="head3">For Visitors</h3>
+        <table class="table mytable">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Event Name</th>
+                    <th scope="col">Fee</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Visitor</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+        </table>
 
         <h3 class="head3">E-Gaming Events</h3>
         <table class="table mytable">
