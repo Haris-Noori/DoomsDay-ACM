@@ -37,7 +37,7 @@
                 <a href="register_participant.php" class="list-group-item list-group-item-action bg-light">Register New
                     Participant</a>
                 <a href="all_participants.php" class="list-group-item list-group-item-action bg-light">All Participants</a>
-                <a href="operator_team.php" class="list-group-item list-group-item-action bg-light">Team</a>
+                <a href="operator_team.php" class="list-group-item list-group-item-action bg-light">Operators Team</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Feedback/Suggestions</a>
             </div>
         </div>
