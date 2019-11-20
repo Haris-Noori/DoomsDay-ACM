@@ -7,7 +7,7 @@
         <div class="row align-center copyright">
             <div class="col-sm-12" align="center" style="color:whitesmoke">
                 <br>
-                <h3>&copy;DOOMSDAY 2019 - All Rights Reserved</h3>
+                <h3>&copy;DOOMSDAY 2019 - Designed & Developed by Haris Noori & Haider Tamsil</h3>
                 <!-- <p><img src="../images/footer.png" id ="img_footer"></span></p> -->
             </div>
         </div>
