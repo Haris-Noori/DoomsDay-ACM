@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Registered Participant </title>
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
 </head>
 <body>
     <center>
@@ -45,7 +46,7 @@ if (!file_exists($pngAbsoluteFilePath)) {
 // echo '<hr />';
 
 // displaying
-echo '<img width="80px" src="'.$urlRelativeFilePath.'" /> </center>';
+// echo '<img width="80px" src="'.$urlRelativeFilePath.'" /> </center>';
 // include "hello.php";
 
 ?>

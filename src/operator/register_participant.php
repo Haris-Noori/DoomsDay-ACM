@@ -94,16 +94,21 @@
                 </tr>
                 <tr>
                     <th scope="row">4</th>
-                    <td>FIFA</td>
+                    <td>NFS</td>
                     <td>350</td>
                 </tr>
                 <tr>
                     <th scope="row">5</th>
-                    <td>DOTA</td>
+                    <td>FIFA</td>
                     <td>350</td>
                 </tr>
                 <tr>
                     <th scope="row">6</th>
+                    <td>DOTA</td>
+                    <td>350</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
                     <td>CS-GO</td>
                     <td>1500</td>
                 </tr>

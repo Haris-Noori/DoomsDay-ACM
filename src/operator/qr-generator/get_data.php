@@ -39,10 +39,46 @@
     require_once "generate-qr.php";
 
     echo "<br>";
-    echo "<center style='font-size: 18px' >";
-    echo "Participant ID: ".$p_id." <br>";
-    echo "Participant name: ".$p_name." <br>";
-    echo "Participant CNIC: ".$cnic." <br>";
-    echo "</center>";
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+    <center style='font-size: 18px' >
+        <!-- Participant ID: ".$p_id." <br>
+        Participant name: ".$p_name." <br>
+        Participant CNIC: ".$cnic." <br> -->
+
+        <div class="jumbotron container" style="border: 2px solid">
+            <img width="90px" src="../../../img/nuces-acm-st-chap.png" style="float:left">
+            <img width="90px" src="../../../img/FAST.png" style="float:right">
+            <img width="150px" src="../../../img/doomslogo.png">
+            
+            <h1 class="display-4">DOOMSDAY 2019</h1>
+            <p class="lead">Thank You for participating</p>
+
+            <hr class="my-4">
+            <div class="container">
+                <h5 style="float:left; margin-left:200px">Participant: <?php echo " $p_name " ?> </h5>
+                <h5 style="float:right; margin-right:200px">Ticket#: <?php echo " $p_id " ?> </h5>
+            </div>
+            <br>
+            <div class="container">
+                <h5 style="float:left; margin-left:200px">Event: <?php echo " $event_name " ?> </h5>
+                <h5 style="float:right; margin-right:200px">Fee: <?php echo " $fee_paid " ?> </h5>
+            </div>
+            <br>
+            <img width="80px" src="<?php echo "$urlRelativeFilePath" ?>"> 
+            
+        </div>
+
+    </center>
+
+    
+</body>
+</html>
