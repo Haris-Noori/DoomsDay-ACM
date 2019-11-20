@@ -10,19 +10,20 @@
     <?php include "op_head.php" ?>
             <!-- Opertaor Team Code Start -->
             <div class="container-fluid">
-                <h1 class="mt-4">Operator Dashboard</h1>
+                <h1 class="mt-4">Weclome, <?php echo $_SESSION["operator"]; ?></h1>
 
                 <div class="jumbotron">
                     <div class="container-fluid">
-                        <h1 class="mt-4">Operator Dashboard</h1>
-                        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear
-                            non-collapsed on larger screens. When toggled using the button below, the menu will change.
-                        </p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top
-                            navbar is
-                            optional, and just for demonstration. Just create an element with the
-                            <code>#menu-toggle</code> ID
-                            which will toggle the menu when clicked.</p>
+                        <h1 class="mt-4">Operator guide:</h1>
+                        <ul>
+                            <li>On your left side, there is a operator panel</li>
+                            <li>You can hide and see the panel by clicking the <code>Operator Panel</code> button on Nav Bar</li>
+                            <li>To change your password, click on your name at top-right of the Nav Bar. Then click on <code>change password</code></li>
+                            <li>To search a participant, at operator panel click on <code>Search Participant</code>, enter the ticket number </li>
+                            <li>To register a new participant, at operator panel click on <code>Register New Participant</code> and fill the form </li>
+                            <li>To check the reports of registrations, click on <code>All Participants</code> </li>
+                            <li>To logout, at top-right of Nav Bar, click on your name </li>
+                        </ul>
                     </div>
                 </div>
             </div>

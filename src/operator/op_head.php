@@ -26,7 +26,7 @@
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
             <div class="sidebar-heading">
-                <a class="navbar-brand" href="">
+                <a class="navbar-brand" href="operator_dashboard.php">
                     <img src="../../img/nuceslogo.png" width="40" height="40" class="d-inline-block align-top" alt="">
                     DOOMSDAY
                 </a> </div>

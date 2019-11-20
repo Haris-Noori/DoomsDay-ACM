@@ -18,7 +18,7 @@
             <div class="form-row">
                 <div class="form-group col-md-4">
 
-                    <input name="p_id" type="number" class="form-control" id="inputEmail4" placeholder="Participant ID xxxx">
+                    <input name="p_id" type="number" class="form-control" id="inputEmail4" placeholder="Ticket# 123">
 
                 </div>
                 <div class="form-group col-md-4">
