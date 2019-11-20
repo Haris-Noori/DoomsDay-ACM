@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="../../../css/bootstrap.min.css">
 </head>
 <body>
-    <center>
-        <h1>Participant Registered Success</h1>
+    <!-- <center> -->
+        <!-- <h1>Participant Registered Success</h1> -->
 
 </body>
 
@@ -36,7 +36,7 @@ $urlRelativeFilePath = $tempDir.$fileName;
 if (!file_exists($pngAbsoluteFilePath)) {
     QRcode::png($codeContents, $pngAbsoluteFilePath);
     // echo 'File generated!';
-    echo '<hr width="500px" />';
+    // echo '<hr width="500px" />';
 } else {
     // echo 'File already generated! We can use this cached file to speed up site on common codes!';
     // echo '<hr />';
