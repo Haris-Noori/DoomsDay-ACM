@@ -39,6 +39,7 @@
                 <a href="add_operator.php" class="list-group-item list-group-item-action bg-light">Add New Operator</a>
                 <a href="remove_operator.php" class="list-group-item list-group-item-action bg-light">Remove Operator</a>
                 <a href="registered_participants.php" class="list-group-item list-group-item-action bg-light">Registered Participants</a>
+                <a href="delete_participant.php" class="list-group-item list-group-item-action bg-light">Delete Registration</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Revenue</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">All Team</a>
             </div>
