@@ -119,7 +119,7 @@
 
     <center style="font-size: 18px" >
 
-        <div class="jumbotron container" style="border: 3px solid; width:900px; margin-top: 50px">
+        <div class="jumbotron container" style="border: 3px solid; width:800px; margin-top: 50px">
             <img width="90px" src="../../../img/nuces-acm-st-chap.png" style="float:left">
             <img width="90px" src="../../../img/FAST.png" style="float:right">
             <img width="150px" src="../../../img/doomslogo.png">
