@@ -27,11 +27,11 @@
         <div class="bg-light border-right" id="sidebar-wrapper">
             <div class="sidebar-heading">
                 <a class="navbar-brand" href="operator_dashboard.php">
-                    <img src="../../img/nuceslogo.png" width="40" height="40" class="d-inline-block align-top" alt="">
-                    DOOMSDAY
+                    <img src="../../img/doomslogo.png" width="70" height="50" class="d-inline-block align-top" alt="">
+                    DOOMSDAY 2019
                 </a> </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">My Profile</a>
+                <a href="my_profile.php" class="list-group-item list-group-item-action bg-light">My Profile</a>
                 <a href="search_participant.php" class="list-group-item list-group-item-action bg-light">Search
                     Participant</a>
                 <a href="register_participant.php" class="list-group-item list-group-item-action bg-light">Register New
@@ -66,7 +66,7 @@
                                 <?php echo $_SESSION["operator"]; ?>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="my_profile.php">My Profile</a>
                                 <a class="dropdown-item" href="change_password.php">Change Password</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="operator_logout.php">Logout</a>

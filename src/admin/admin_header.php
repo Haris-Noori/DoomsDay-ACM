@@ -30,15 +30,15 @@
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
             <div class="sidebar-heading">
-                <a class="navbar-brand" href="academic-login.html">
-                    <img src="../../img/acm.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                <a class="navbar-brand" href="admin_dashboard.php">
+                    <img src="../../img/doomslogo.png" width="70" height="50" class="d-inline-block align-top" alt="">
                     DOOMSDAY 2019
                 </a> </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">My Profile</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Add New Operator</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Remove Operator</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Registered Participants</a>
+                <a href="admin_dashboard.php" class="list-group-item list-group-item-action bg-light">My Profile</a>
+                <a href="add_operator.php" class="list-group-item list-group-item-action bg-light">Add New Operator</a>
+                <a href="remove_operator.php" class="list-group-item list-group-item-action bg-light">Remove Operator</a>
+                <a href="registered_participants.php" class="list-group-item list-group-item-action bg-light">Registered Participants</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Revenue</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">All Team</a>
             </div>

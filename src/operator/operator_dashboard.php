@@ -22,7 +22,7 @@
                             <li>To search a participant, at operator panel click on <code>Search Participant</code>, enter the ticket number </li>
                             <li>To register a new participant, at operator panel click on <code>Register New Participant</code> and fill the form </li>
                             <li>To check the reports of registrations, click on <code>All Participants</code> </li>
-                            <li>To logout, at top-right of Nav Bar, click on your name </li>
+                            <li>To logout, at top-right of Nav Bar, click on your name </li>+
                         </ul>
                     </div>
                 </div>
