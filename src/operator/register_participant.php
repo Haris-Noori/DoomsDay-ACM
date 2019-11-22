@@ -36,15 +36,15 @@
                 <div class="form-group col-md-4">
                     <label for="inputEmail4">Select Event</label>
 
-                    <select class="custom-select" name="event_name">
+                    <select class="custom-select" id="game_options" name="event_name">
                         <option value="Visitor">Visitor</option>
-                        <option value="PUBG">PUBG</option>
+                        <option value="PUBG">PUBG - Squad</option>
                         <option value="Tekken">Tekken</option>
-                        <option value="COD">COD</option>
+                        <option value="COD">COD - Squad</option>
                         <option value="FIFA">FIFA</option>
                         <option value="NFS">NFS</option>
-                        <option value="DOTA">DOTA</option>
-                        <option value="CS-GO">CS-GO</option>
+                        <option value="DOTA">DOTA - Squad</option>
+                        <option value="CS-GO">CS-GO Squad</option>
                         <option value="Ludo 1 Player">Ludo 1 Player</option>
                         <option value="Cards 1 Player">Cards 1 Player</option>
                         <option value="Chess 1 Player">Chess 1 Player</option>
@@ -57,12 +57,28 @@
                 </div>
             </div>
 
-            <!-- <div class="form-row">
+            <div id="other_members" style="display:none"> 
+            <div class="form-row">
                 <div class="form-group col-md-4">
-                    <label for="inputPassword4">Event Fee</label>
-                    <input type="number" name="event_fee" class="form-control" id="inputPassword4" placeholder="$$">
+                    <label for="inputEmail4">Participant Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Member One" name="mem1">
                 </div>
-            </div> -->
+                <div class="form-group col-md-4">
+                    <label for="inputEmail4">Participant Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Member Two" name="mem2">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputEmail4">Participant Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Member Three" name="mem3">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputEmail4">Participant Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Member Four" name="mem4">
+                </div>
+            </div>
+            </div>
 
             <button type="button" class="btn btn-lg btn-success" data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-success btn-lg">Register</button>
             
@@ -116,7 +132,7 @@
             <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>PUBG</td>
+                    <td>PUBG Squad</td>
                     <td>1200</td>
                 </tr>
                 <tr>
@@ -126,7 +142,7 @@
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td>COD</td>
+                    <td>COD Squad</td>
                     <td>1500</td>
                 </tr>
                 <tr>
@@ -141,12 +157,12 @@
                 </tr>
                 <tr>
                     <th scope="row">6</th>
-                    <td>DOTA</td>
+                    <td>DOTA Squad</td>
                     <td>350</td>
                 </tr>
                 <tr>
                     <th scope="row">7</th>
-                    <td>CS-GO</td>
+                    <td>CS-GO Squad</td>
                     <td>1500</td>
                 </tr>
             </tbody>
@@ -233,5 +249,29 @@
         </center>
 
     </div>
+    <script src="../../js/jquery-3.4.1.min.js"></script>
+    <script>
+        
+        $(function(){
+            $("#game_options").on("change",function(event)
+            {
+                var opt = this.options[this.selectedIndex].text;
+                // console.log(opt);
+                var squad_games = ["PUBG - Squad","COD - Squad","DOTA - Squad","CS-GO Squad"];
+                var check = squad_games.includes(opt);
+                // console.log(check);
+                if(check)
+                {
+                    $("#other_members").show();
+                }
+                else{
+                    $("#other_members").hide();
+                }
+               
+
+            })
+        })
+
+    </script>
     <!-- Operator Team Code End -->
     <?php include "op_foot.php" ?>
