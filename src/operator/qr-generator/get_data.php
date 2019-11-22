@@ -217,12 +217,16 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6" style="text-align:right"><h6>Participant: <?php echo $p_name ?> </h6></div>
-                    <div class="col-md-6" style="text-align:left"><h6>Ticket#: <?php echo $p_id ?> </h6></div>
+                    <div class="col-md-6" style="text-align:center"> Participant: <?php echo $p_name ?> </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6" style="text-align:right"><h6>Event: <?php echo $event_name ?> </h6></div>
-                    <div class="col-md-6" style="text-align:left"><h6>Fee: <?php echo $fee_paid ?> </h6></div>
+                    <div class="col-md-6" style="text-align:center">Ticket#: <?php echo $p_id ?> </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" style="text-align:center">Event: <?php echo $event_name ?> </div>
+                <div>
+                <div class="row">
+                    <div class="col-md-6" style="text-align:center">Fee: <?php echo $fee_paid ?> </div>
                 </div>
             </div>
             <!-- <br> -->
