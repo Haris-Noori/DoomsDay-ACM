@@ -210,8 +210,8 @@
             <img width="90px" src="../../../img/FAST.png" style="float:right">
             <img width="150px" src="../../../img/doomslogo.png">
             
-            <h1 class="display-4" style="font-family: 'Russo One', sans-serif">DOOMSDAY 19</h1>
-            <p class="lead">Thank You for participating</p>
+            <h1 class="display-4" style="font-family: 'Russo One', sans-serif">DOOMSDAY 2K19</h1>
+            <p class="lead">Thanks for Participation</p>
 
             <hr class="my-4">
 

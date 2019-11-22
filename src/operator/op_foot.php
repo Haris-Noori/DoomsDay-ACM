@@ -7,7 +7,7 @@
         <div class="row align-center copyright">
             <div class="col-sm-12" align="center" style="color:whitesmoke">
                 <br>
-                <h3>&copy;DOOMSDAY 2019 - Designed & Developed by <a href="https://imharis.wordpress.com/" target="_blank">Haris Noori</a> & <a href="https://www.facebook.com/haider.tamsil" target="_blank">Haider Tamsil</a> </h3>
+                <h3>&copy;DOOMSDAY 2K19 - Designed & Developed by <a href="https://imharis.wordpress.com/" target="_blank">Haris Noori</a> & <a href="https://www.facebook.com/haider.tamsil" target="_blank">Haider Tamsil</a> </h3>
                 <!-- <p><img src="../images/footer.png" id ="img_footer"></span></p> -->
             </div>
         </div>

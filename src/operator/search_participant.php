@@ -42,6 +42,7 @@
                     <th scope="col">Event Name</th>
                     <th scope="col">Fee Paid</th>
                     <th scope="col">Registered By</th>
+                    <th scope="col"></th>
                 </tr>
             </thead>
             <?php  
@@ -83,6 +84,7 @@
                     <td><?php echo " ".$row["event_name"]." " ?></td>
                     <td><?php echo " ".$row["fee_paid"]." " ?></td>
                     <td><?php echo " ".$row["registered_by"]." " ?></td>
+                    <td><button class="btn btn-success"><a href=<?php echo "printRecipt.php?p_id=".$row["p_id"]."&fee_paid=".$row["fee_paid"]."&regBy=".$row["registered_by"]."&event=".$row["event_name"]."&p_name=".$row["p_name"]?> style="text-color: white; text-decoration: none;">Print<a/></button></td>
                 </tr>
 
         <?php 
