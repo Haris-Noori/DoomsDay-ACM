@@ -19,21 +19,21 @@
         $fee_paid = 1200;
         $other_members = "";
 
-        if(isset($_POST["mem1"]))
+        if(!empty($_POST["mem1"]))
         {
             $other_members .= $_POST["mem1"];
         }
-        if(isset($_POST["mem2"]))
+        if(!empty($_POST["mem2"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem2"];
         }
-        if(isset($_POST["mem3"]))
+        if(!empty($_POST["mem3"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem3"];
         }
-        if(isset($_POST["mem4"]))
+        if(!empty($_POST["mem4"]))
         {
             $other_members .= ", ";
             $other_members .= $_POST["mem4"];
@@ -49,21 +49,21 @@
         $fee_paid = 1500;
         $other_members = "";
 
-        if(isset($_POST["mem1"]))
+        if(!empty($_POST["mem1"]))
         {
             $other_members .= $_POST["mem1"];
         }
-        if(isset($_POST["mem2"]))
+        if(!empty($_POST["mem2"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem2"];
         }
-        if(isset($_POST["mem3"]))
+        if(!empty($_POST["mem3"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem3"];
         }
-        if(isset($_POST["mem4"]))
+        if(!empty($_POST["mem4"]))
         {
             $other_members .= ", ";
             $other_members .= $_POST["mem4"];
@@ -82,21 +82,21 @@
         $fee_paid = 350;
         $other_members = "";
 
-        if(isset($_POST["mem1"]))
+        if(!empty($_POST["mem1"]))
         {
             $other_members .= $_POST["mem1"];
         }
-        if(isset($_POST["mem2"]))
+        if(!empty($_POST["mem2"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem2"];
         }
-        if(isset($_POST["mem3"]))
+        if(!empty($_POST["mem3"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem3"];
         }
-        if(isset($_POST["mem4"]))
+        if(!empty($_POST["mem4"]))
         {
             $other_members .= ", ";
             $other_members .= $_POST["mem4"];
@@ -107,21 +107,21 @@
         $fee_paid = 1500;
         $other_members = "";
 
-        if(isset($_POST["mem1"]))
+        if(!empty($_POST["mem1"]))
         {
             $other_members .= $_POST["mem1"];
         }
-        if(isset($_POST["mem2"]))
+        if(!empty($_POST["mem2"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem2"];
         }
-        if(isset($_POST["mem3"]))
+        if(!empty($_POST["mem3"]))
         {   
             $other_members .= ", ";
             $other_members .= $_POST["mem3"];
         }
-        if(isset($_POST["mem4"]))
+        if(!empty($_POST["mem4"]))
         {
             $other_members .= ", ";
             $other_members .= $_POST["mem4"];
@@ -204,36 +204,53 @@
 </head>
 <body>
 
-    <center style="font-size: 18px" >
+    <center style="font-size: 15px" >
 
-        <div class="jumbotron container" style="border: 3px solid; width:300px; margin-top: 50px">
-            <img width="90px" src="../../../img/nuces-acm-st-chap.png" style="float:left">
-            <img width="90px" src="../../../img/FAST.png" style="float:right">
-            <img width="150px" src="../../../img/doomslogo.png">
+        <div class="jumbotron container" style="border: 3px solid; width:300px; margin-top: 10px">
+            <img width="60px" src="../../../img/nuces-acm-st-chap.png" style="float:left">
+            <img width="60px" src="../../../img/FAST.png" style="float:right">
+            <br>
+            <br>
+            <br>
             
-            <h1 class="display-4" style="font-family: 'Russo One', sans-serif">DOOMSDAY 19</h1>
+            <div style="text-align:center"><img width="150px" src="../../../img/doomslogo.png"></div>
+            
+            <h1 class="display-6" style="font-family: 'Russo One', sans-serif">DOOMSDAY 19</h1>
             <p class="lead">Thank You for participating</p>
 
             <hr class="my-4">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6" style="text-align:center"> Participant: <?php echo $p_name ?> </div>
+            <div class="container" style="text-align:center">
+
+                <div class="row" style="text-align:center; border:1px solid black" >
+                    <div class="col-md-12" style="border: 1px solid green"> Participant: <?php echo $p_name; ?> </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6" style="text-align:center">Ticket#: <?php echo $p_id ?> </div>
+
+                <div class="row" style="text-align:center; border:1px solid black">
+                    <div class="col-md-12" style="border: 1px solid green">Ticket#: <?php echo $p_id; ?> </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6" style="text-align:center">Event: <?php echo $event_name ?> </div>
-                <div>
-                <div class="row">
-                    <div class="col-md-6" style="text-align:center">Fee: <?php echo $fee_paid ?> </div>
+
+                <div class="row" style="text-align:center; border:1px solid black">
+                    <div class="col-md-12" style="border: 1px solid green">Event: <?php echo $event_name; ?> </div>
                 </div>
+
+                <div class="row" style="text-align:center; border:1px solid black">
+                    <div class="col-md-12" style="border: 1px solid green">Fee: <?php echo $fee_paid; ?> </div>
+                </div>
+
+                <?php 
+                    if(!empty($other_members))
+                    {
+                        echo " <div class='row' style='text-align:center; border:1px solid black'> ";
+                        echo " <div class='col-md-12' style='border: 1px solid green'>Team Members: $other_members </div> ";
+                        echo "  </div> ";
+                    }
+                ?>
             </div>
             <!-- <br> -->
             <img width="120px" src="<?php echo "$urlRelativeFilePath" ?>"> 
             <br>
-            <p style="float:right; font-size: 15px"> Generated By: <span style="text-decoration:underline"><?php echo $registered_by ?></span> </p>
+            <p style="text-align:center; font-size: 15px"> Generated By: <span style="text-decoration:underline"><?php echo $registered_by ?></span> </p>
             
         </div>
 
