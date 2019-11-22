@@ -1,6 +1,7 @@
 <?php 
     $p_id = $_GET["p_id"];
-    $p_name = $_GET["p_name"];
+    $name = $_GET["p_name"];
+    $p_name = urldecode($name);
     $fee_paid = $_GET["fee_paid"];
     $registered_by = $_GET["regBy"];
     $event_name = $_GET["event"];
@@ -16,7 +17,7 @@
 
 <center style="font-size: 18px" >
 
-<div class="jumbotron container" style="border: 3px solid; width:360px; margin-top: 20px; padding-top:15px;">
+<div class="jumbotron container" style="border: 3px solid; width:390px; margin-top: 20px; padding-top:15px;">
     <img width="90px" src="../../img/nuces-acm-st-chap.png" style="float:left">
     <img width="90px" src="../../img/FAST.png" style="float:right">
     <img width="150px" src="../../img/doomslogo.png" style=" display:block;
@@ -29,20 +30,19 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-10" style="text-align:center"> Participant: <?php echo $p_name ?> </div>
+            <div class="col-md-10" style="text-align:center">Ticket ID: <?php echo $p_id ?> </div>
         </div>
         <div class="row">
-            <div class="col-md-10" style="text-align:center">Ticket : <?php echo $p_id ?> </div>
+            <div class="col-md-10" style="text-align:center"> Name: <?php echo $p_name ?> </div>
         </div>
         <div class="row">
             <div class="col-md-10" style="text-align:center">Event : <?php echo $event_name ?> </div>
         <div>
         <div class="row">
-            <div class="col-md-12" style="text-align:center">Fee : <?php echo $fee_paid ?> </div>
+            <div class="col-md-10" style="text-align:center">Fee Paid : <?php echo $fee_paid ?> </div>
         </div>
-        <hr>
     </div>
-    <!-- <br> -->
+    <br>
     <img width="120px" src="<?php echo "./qr-generator/qrcodes/qr-".$p_id.".png"?>" style="display:block;
     margin-left:20px; padding-top:50px;"> 
     <br>
