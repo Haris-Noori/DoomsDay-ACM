@@ -38,7 +38,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`admin_name`, `admin_pass`) VALUES
-('haider', 'haider'),
+('ahsan', '121'),
 ('root', 'root');
 
 -- --------------------------------------------------------
@@ -57,7 +57,7 @@ CREATE TABLE `operators` (
 --
 
 INSERT INTO `operators` (`operator_name`, `operator_pass`) VALUES
-('Ahmad tariq ', '123'),
+('Ahsan', '123'),
 ('haider', 'haider'),
 ('root', 'root');
 
