@@ -1,8 +1,8 @@
 <?php
 
     $server = "localhost";
-    $user = "phpmyadmin";
-    $pass = "root123";
+    $user = "root";
+    $pass = "";
     $dbname = "acm_db";
 
     $con = new MySQLi($server, $user, $pass, $dbname);

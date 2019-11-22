@@ -57,6 +57,7 @@
                     <th scope="col">Event Name</th>
                     <th scope="col">Fee Paid</th>
                     <th scope="col">Registered By</th>
+                    <th scope="col">Team</th>
                 </tr>
             </thead>
             <?php  
@@ -85,6 +86,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -115,6 +117,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -146,6 +149,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -177,6 +181,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -208,6 +213,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -239,6 +245,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -270,6 +277,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -301,6 +309,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -332,6 +341,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -363,6 +373,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -394,6 +405,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -425,6 +437,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -457,6 +470,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -488,6 +502,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -519,6 +534,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -550,6 +566,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -581,6 +598,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
@@ -612,6 +630,7 @@
                             <td><?php echo " ".$row["event_name"]." " ?></td>
                             <td><?php echo " ".$row["fee_paid"]." " ?></td>
                             <td><?php echo " ".$row["registered_by"]." " ?></td>
+                            <td><?php echo " ".$row["other_members"]." " ?></td>
                         </tr>
 
                     <?php 
