@@ -80,25 +80,33 @@
             </div>
             </div>
 
-            <button type="button" class="btn btn-lg btn-success" data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-success btn-lg">Register</button>
+            <!-- OLD BUTTON START-->
             
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Are you sure want to Register?</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-success btn-lg">Yes</button>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+            <!-- OLD BUTTON END-->
+            
+            <!--NEW BUTTON START-->
+            <button type="button" class="btn btn-lg btn-success" data-toggle="modal" data-target="#exampleModalCenter">
+  Register
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Are you sure ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
+        <button type="submit" class="btn btn-success">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <!--NEW BUTTON END-->
         </form>
 
         <center>
