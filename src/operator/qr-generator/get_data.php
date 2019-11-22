@@ -8,6 +8,7 @@
     $cnic = $_POST["cnic"];
     $p_phone = $_POST["phone_no"];
     $event_name = $_POST["event_name"];
+    $other_members = "";
     // $fee_paid = $_POST["event_fee"];
     if($event_name == "Visitor")
     {
