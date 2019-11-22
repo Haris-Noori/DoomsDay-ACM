@@ -10,7 +10,11 @@
     $event_name = $_POST["event_name"];
     $other_members = "";
     // $fee_paid = $_POST["event_fee"];
-    if($event_name == "Visitor")
+    if($event_name == "Free")
+    {
+        $fee_paid = 0;
+    }
+    elseif($event_name == "Visitor")
     {
         $fee_paid = 200;
     }
@@ -160,7 +164,7 @@
         $fee_paid = 100;
     }
     else
-    {$fee_paid = 200; }
+    {$fee_paid = 0; }
     
 
     $registered_by = $_SESSION["operator"];
@@ -212,7 +216,7 @@
             <br>
             <br>
             <br>
-            
+            <br>
             <div style="text-align:center"><img width="150px" src="../../../img/doomslogo.png"></div>
             
             <h1 class="display-6" style="font-family: 'Russo One', sans-serif">DOOMSDAY 19</h1>
@@ -222,28 +226,28 @@
 
             <div class="container" style="text-align:center">
 
-                <div class="row" style="text-align:center; border:1px solid black" >
-                    <div class="col-md-12" style="border: 1px solid green"> Participant: <?php echo $p_name; ?> </div>
+                <div class="row" style="text-align:center" >
+                    <div class="col-md-12"> Participant: <?php echo $p_name; ?> </div>
                 </div>
 
-                <div class="row" style="text-align:center; border:1px solid black">
-                    <div class="col-md-12" style="border: 1px solid green">Ticket#: <?php echo $p_id; ?> </div>
+                <div class="row" style="text-align:center">
+                    <div class="col-md-12">Ticket#: <?php echo $p_id; ?> </div>
                 </div>
 
-                <div class="row" style="text-align:center; border:1px solid black">
-                    <div class="col-md-12" style="border: 1px solid green">Event: <?php echo $event_name; ?> </div>
+                <div class="row" style="text-align:center">
+                    <div class="col-md-12">Event: <?php echo $event_name; ?> </div>
                 </div>
 
-                <div class="row" style="text-align:center; border:1px solid black">
-                    <div class="col-md-12" style="border: 1px solid green">Fee: <?php echo $fee_paid; ?> </div>
+                <div class="row" style="text-align:center">
+                    <div class="col-md-12">Fee: <?php echo $fee_paid; ?> </div>
                 </div>
 
                 <?php 
                     if(!empty($other_members))
                     {
-                        echo " <div class='row' style='text-align:center; border:1px solid black'> ";
-                        echo " <div class='col-md-12' style='border: 1px solid green'>Team Members: $other_members </div> ";
-                        echo "  </div> ";
+                        echo " <div class='row' style='text-align:center> ";
+                        echo "     <div class='col-md-12'>Team Members: $other_members </div> ";
+                        echo " </div> ";
                     }
                 ?>
             </div>

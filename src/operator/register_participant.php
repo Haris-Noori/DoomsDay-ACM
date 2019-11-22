@@ -37,6 +37,7 @@
                     <label for="inputEmail4">Select Event</label>
 
                     <select class="custom-select" id="game_options" name="event_name">
+                        <option value="Free">Free</option>
                         <option value="Visitor">Visitor</option>
                         <option value="PUBG">PUBG - Squad</option>
                         <option value="Tekken">Tekken</option>
@@ -79,12 +80,7 @@
                 </div>
             </div>
             </div>
-
-            <!-- OLD BUTTON START-->
-            
-            <!-- OLD BUTTON END-->
-            
-            <!--NEW BUTTON START-->
+           <!--NEW BUTTON START-->
             <button type="button" class="btn btn-lg btn-success" data-toggle="modal" data-target="#exampleModalCenter">
   Register
 </button>
@@ -111,7 +107,7 @@
 
         <center>
 
-        
+
         <h3 class="head3">For Visitors</h3>
         <table class="table mytable">
             <thead class="thead-dark">
