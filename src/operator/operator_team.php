@@ -19,33 +19,29 @@
 
                         <div class="col-lg-4">
                             <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h6 class="card-title">Admin</h6>
+                                    <h5 class="card-title">Haris Noori</h5>
+                                    <a href="#" class="btn btn-primary">0333-5679311</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Head</h6>
+                                    <h5 class="card-title">M.Ahsan</h5>
+                                    <a href="#" class="btn btn-primary">0340-6737145</a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4">
                             <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Bilal Rahim</h5>
+                                    <a href="#" class="btn btn-primary">0333-9877049</a>
                                 </div>
                             </div>
                         </div>
@@ -54,35 +50,52 @@
                     <br>
                     <div class="row">
 
-                        <div class="col-lg-4">
+                    <div class="col-lg-4">
                             <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Faryal Ishfaq</h5>
+                                    <a href="#" class="btn btn-primary"> - </a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4">
                             <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Noormah</h5>
+                                    <a href="#" class="btn btn-primary"> - </a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-4">
                             <div class="card" style="width: 18rem;">
-                                <img src="..." class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <h5 class="card-title">Ali Muzahir</h5>
+                                    <a href="#" class="btn btn-primary"> - </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <br>
+                    <div class="row">
+
+                    <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">M Shafeeq</h5>
+                                    <a href="#" class="btn btn-primary"> - </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Umair Maratab</h5>
+                                    <a href="#" class="btn btn-primary"> - </a>
                                 </div>
                             </div>
                         </div>
