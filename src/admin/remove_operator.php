@@ -20,7 +20,7 @@
                             <input type="text" class="form-control" id="inputEmail4" placeholder="Full Name" name="op_name" required>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-success btn-lg">Add</button>
+                    <button type="submit" class="btn btn-success btn-lg">Remove</button>
                     <br>
                     <br>
                     <div class="form group-row">
