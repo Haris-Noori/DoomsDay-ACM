@@ -84,7 +84,7 @@
                     <td><?php echo " ".$row["fee_paid"]." " ?></td>
                     <td><?php echo " ".$row["registered_by"]." " ?></td>
                     <td><?php echo " ".$row["other_members"]." " ?></td>
-                    <td><a href=<?php echo "printRecipt.php?p_id=".$row["p_id"]."&fee_paid=".$row["fee_paid"]."&regBy=".$row["registered_by"]."&event=".$row["event_name"]."&p_name=".$row["p_name"]?> style="text-color: white; text-decoration: none;"> <button class="btn btn-success">Print</button> </a></td>
+                    <td><a href=<?php echo "printRecipt.php?p_id=".$row["p_id"]."&fee_paid=".$row["fee_paid"]."&regBy=".$row["registered_by"]."&event=".$row["event_name"]."&p_name=".$row["p_name"]."&other=".$row["other_members"]?> style="text-color: white; text-decoration: none;"> <button class="btn btn-success">Print</button> </a></td>
                 </tr>
 
         <?php 

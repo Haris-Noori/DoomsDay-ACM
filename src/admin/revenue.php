@@ -20,6 +20,7 @@
                     $row = $res->fetch_assoc();
                     $visitors_sales = $row["SUM(fee_paid)"];
                     // echo $visitors_sales;
+                    // echo $res->num_rows;
                     $total+=$visitors_sales;
                     // echo "<br>";
 

@@ -24,7 +24,7 @@
                 <div class="form-group col-md-4">
                     <label for="inputPassword4">CNIC Number (Must Be 13 Digits)</label>
                     <input type="number" name="cnic" class="form-control" id="inputPassword4"
-                        placeholder="Must be 13 Digits" required min="1000000000000" max="9999999999999">
+                        placeholder="Must be 13 Digits">
                 </div>
             </div>
 
