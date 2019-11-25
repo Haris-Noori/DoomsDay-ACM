@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 23, 2019 at 02:14 PM
+-- Generation Time: Nov 25, 2019 at 03:51 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -122,7 +122,6 @@ INSERT INTO `participants` (`p_id`, `p_name`, `p_cnic`, `p_phone`, `event_name`,
 (844, 'Usama AHmed', 0, 3142299866, 'Tekken', 350, 'Haris Noori', ''),
 (101, 'Laiq Khan', 0, 3028841242, 'COD', 1500, 'Haris Noori', 'Usama, Waseem, Amir, Bilal'),
 (16, 'Muhammad Shayan', 0, 3337269797, 'PUBG', 1200, 'Haris Noori', 'Haroon, Arbaz, Saad'),
-(335, 'Abdullah', 0, 3161717826, 'Chess 1 Player', 200, 'Haris Noori', ''),
 (306, 'Asad', 0, 3130996881, 'Ludo 1 Player', 200, 'Haris Noori', ''),
 (131, 'Yasir', 0, 3028758775, 'Tekken', 350, 'Haris Noori', ''),
 (953, 'Zain', 0, 3028758775, 'FIFA', 350, 'Haris Noori', ''),
@@ -141,7 +140,23 @@ INSERT INTO `participants` (`p_id`, `p_name`, `p_cnic`, `p_phone`, `event_name`,
 (262, 'Shahzad', 0, 3469376929, 'Tekken', 350, 'Haris Noori', ''),
 (609, 'Usama', 0, 3316360353, 'Tekken', 350, 'M.Ahsan', ''),
 (452, 'Basit', 0, 3029162705, 'Tekken', 350, 'M.Ahsan', ''),
-(364, 'Qasim', 0, 0, 'Visitor', 100, 'M.Ahsan', '');
+(364, 'Qasim', 0, 0, 'Visitor', 100, 'M.Ahsan', ''),
+(319, 'Shifa', 0, 0, 'Henna 1 Player', 100, 'Haris Noori', ''),
+(340, 'Bushra', 0, 0, 'Henna 1 Player', 100, 'Haris Noori', ''),
+(894, 'Nouman ', 0, 3044029852, 'Tekken', 350, 'Haris Noori', ''),
+(214, 'Frishta Sehar', 0, 0, 'Singing 1 Player', 100, 'M.Ahsan', ''),
+(163, 'Ucman', 0, 3339636307, 'Tekken', 350, 'M.Ahsan', ''),
+(860, 'Aleena', 0, 0, 'Singing 1 Player', 100, 'test', ''),
+(310, 'Qurtulain', 0, 0, 'Henna 1 Player', 100, 'test', ''),
+(136, 'Faiza', 0, 0, 'Visitor', 200, 'test', ''),
+(666, 'Mahad', 0, 3009591345, 'Ludo 1 Player', 200, 'Abdul Wasey', ''),
+(602, 'Talha', 0, 3009591345, 'Ludo 1 Player', 200, 'Abdul Wasey', ''),
+(397, 'Haseeb', 0, 3369183202, 'Visitor', 200, 'Abdul Wasey', ''),
+(463, 'Hamza Salar', 0, 3333629393, 'NFS', 350, 'Abdul Wasey', ''),
+(172, 'Muhammad Mohsin', 0, 3369316600, 'Visitor', 200, 'Abdul Wasey', ''),
+(65, 'Anny', 0, 0, 'Singing 1 Player', 100, 'Abdul Wasey', ''),
+(658, 'Khushbakht Aftab', 0, 0, 'Ludo 1 Player', 0, 'Abdul Wasey', ''),
+(24, 'Lanja Wali Game', 0, 0, 'CS-GO', 1500, 'Haris Noori', '');
 
 --
 -- Indexes for dumped tables

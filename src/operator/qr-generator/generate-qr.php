@@ -20,11 +20,32 @@ include('phpqrcode/qrlib.php');
 
 $tempDir = "qrcodes/";
 
-$codeContents = $p_id;
+$codeContents .= "Ticket: ";
+$codeContents .= $p_id;
+$codeContents .= "\n";
+
+$codeContents .= "Name: ";
+$codeContents .= $p_name;
+$codeContents .= "\n";
+
+$codeContents .= "Event: ";
+$codeContents .= $event_name;
+$codeContents .= "\n";
+
+if(!empty($other_members))
+{
+    $codeContents .= "Team: ";
+    $codeContents .= $other_members;
+    $codeContents .= "\n";
+}
+
+$codeContents .= "Phone: ";
+$codeContents .= $p_phone;
+$codeContents .= "\n";
 
 // we need to generate filename somehow, 
 // with md5 or with database ID used to obtains $codeContents...
-$fileName = 'qr-'.$codeContents.'.png';
+$fileName = 'qr-'.$p_id.'.png';
 // echo $fileName;
 // include "hello.php";
 

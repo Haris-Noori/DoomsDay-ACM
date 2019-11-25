@@ -19,7 +19,7 @@
 
     <nav class="navbar mynav">
         <div class="mydiv">
-            <span><img src="../../img/acm.png" width="80" height="80" class="d-inline-block align-top"
+            <span><img src="../../img/doomslogo.png" width="80" height="80" class="d-inline-block align-top"
                     href=""></span>
             <a id="techvalley" href="../../index.php">
                 DOOMSDAY 2019

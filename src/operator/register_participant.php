@@ -164,7 +164,7 @@
                 <tr>
                     <th scope="row">6</th>
                     <td>DOTA Squad</td>
-                    <td>350</td>
+                    <td>1500</td>
                 </tr>
                 <tr>
                     <th scope="row">7</th>
